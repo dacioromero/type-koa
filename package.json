@@ -1,0 +1,24 @@
+{
+  "name": "@dacio/type-koa",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "run-s build:clean build:compile",
+    "build:compile": "tsc",
+    "build:clean": "rimraf dist",
+    "lint": "eslint --ext .js,.ts src examples",
+    "prettier:check": "prettier --check \"**/*.js\"",
+    "prettier:write": "prettier --write \"**/*.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "eslint": "^6.3.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.18.2",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.2"
+  }
+}

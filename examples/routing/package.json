@@ -1,0 +1,16 @@
+{
+  "name": "routing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4",
+    "ts-node-dev": "^1.0.0-pre.42"
+  }
+}
